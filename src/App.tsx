@@ -6,12 +6,12 @@ function App() {
         <h4 className="text-white text-center text-2xl font-bold">Login</h4>
         <div id='input-container' className='flex flex-col size-full justify-center items-center'>
           <div id='user-input'>
-            <label>Username</label><br></br>
+            <label className='text-white text-md' >Username</label><br></br>
             <input className='border-1 border-white px-2 rounded-md' type='text' placeholder='Username' required></input>
           </div>
 
           <div id='user-password' className='mt-4'>
-            <label>Password</label><br></br>
+            <label className='text-white text-md'>Password</label><br></br>
             <input className='border-1 border-white px-2 rounded-md' type='password' placeholder='Password' required></input>
           </div>
         </div>
