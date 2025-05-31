@@ -14,6 +14,10 @@ function App() {
             <label className='text-white text-md'>Password</label><br></br>
             <input className='border-1 border-white px-2 rounded-md' type='password' placeholder='Password' required></input>
           </div>
+
+          <div id='button-div' className='justify-center items-center flex flex-row w-50'>
+            <button className='bg-white rounded-md w-full h-7 mt-4'>login</button>
+          </div>
         </div>
       </div>
     </div>
